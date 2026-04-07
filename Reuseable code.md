@@ -1,3 +1,4 @@
+```python
 def reconcile_payments(ledger_df, gateway_df, id_column='transaction_id', amount_column='amount'):
     """
     Reconcile two payment datasets and return discrepancy report.
@@ -98,3 +99,4 @@ def reconcile_payments(ledger_df, gateway_df, id_column='transaction_id', amount
     }
 
     return result
+```
