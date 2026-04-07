@@ -2,7 +2,7 @@
 **The Core Conflict**
 
 In a modern FinTech ecosystem, transaction data flows through multiple disparate systems: internal ledgers, payment gateways (e.g., **Stripe**, **Razorpay**), and partner bank statements. 
-The "nightmare scenario" is not a security breach, but **data fragmentation**. Every day, millions of records must be matched across these sources to ensure that every dollar initiated by a user has actually been settled in the company’s bank account.
+The "nightmare scenario" is not a security breach, but **data fragmentation**. Every day, millions of records must be matched across these sources to ensure that every Rupee initiated by a user has actually been settled in the company’s bank account.
 
 **Picture this**: You run a D2C brand on Shopify. Yesterday, Razorpay processed 847 orders worth ₹12.3 lakhs. This morning, your bank shows a settlement of ₹12.1 lakhs. Where's the missing ₹20,000?
 
@@ -44,11 +44,11 @@ In the world of FinTech, it's about making sure the money you think you have mat
 
 For a FinTech engineer, reconciliation usually involves matching three specific data sources:
 
-- **Internal Ledger**: Your app’s database (e.g., "User A clicked 'Pay' for $50").
+- **Internal Ledger**: Your app’s database (e.g., "User A clicked 'Pay' for ₹50").
 
-- **Payment Gateway**: Records from providers like Stripe, Razorpay, or PayPal (e.g., "We successfully charged User A $50").
+- **Payment Gateway**: Records from providers like Stripe, Razorpay, or PayPal (e.g., "We successfully charged User A ₹50").
 
-- **Bank Statement**: The actual cash movement (e.g., "The bank received $48.50 after processing fees").
+- **Bank Statement**: The actual cash movement (e.g., "The bank received ₹48.50 after processing fees").
 
 
 The three types of discrepancies we'll find:
