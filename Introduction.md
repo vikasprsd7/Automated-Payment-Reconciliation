@@ -73,7 +73,7 @@ In production, this gets messy because:
 - Refunds create negative entries in one system but separate records in another
 
 
-<img src="https://file.notion.so/f/f/7484ad52-714a-4ca4-a87b-641f4780baf5/04cafef9-c210-4838-8228-da954cbd9d8b/image.png?table=block&id=33839966-cd7f-80d9-838e-ea273200b45f&spaceId=7484ad52-714a-4ca4-a87b-641f4780baf5&expirationTimestamp=1775563200000&signature=d-uxB8ERqnrTNraaIlL9mclqQD7xhSBwa2ZRXLmIlfM&downloadName=image.png" width="700" alt="Python Logo">
+
 
 ## Creating Our Test Data
 
